@@ -1,0 +1,89 @@
+nav {
+    width:100%;
+    
+    color: #fff;
+    padding: 4px 0;
+    position: fixed; //* si quiero que se mueva al swipear fixed , si lo quiero quieto absolute*/
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:  10;
+    
+}
+
+.btnn {
+    color: white ;
+    
+    font-size: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
+    
+}
+
+.btn {
+background-color: #fff;
+color: #212121;
+padding: 14px 25px;
+font-size: 16px;
+border-radius: 30px;
+cursor: pointer;
+border: 0;
+outline: 0;
+}
+
+.dark-nav {
+    color: #212ea0;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: background-color 0.5s, color 0.2s;
+}
+
+@media (max-width: 1000px) {
+    .logo {
+        width: 140px;
+    }
+
+    .nav ul li {
+        margin: 10px 15px;
+    }
+}
+.bi-menu-down {
+    display: none;
+    width: 30px;
+    cursor: pointer;
+}
+/*/ media enquery */
+
+@media (max-width: 840px) {
+    nav {
+        padding: 15px 0;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 0;
+        right:0px;
+        bottom: 0;
+        background-color: #212ea0;
+        z-index: -1;
+        width: 200px;
+        padding-top: 70px;
+        transition: 0.5s
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px 40px;
+
+    }
+
+    .hide-mobile-menu {
+        right: -200;
+    }
+}

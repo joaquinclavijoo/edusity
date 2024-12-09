@@ -1,0 +1,93 @@
+.pregrado {
+    padding: 20px; /* Adjust padding to a smaller, fixed value */
+    margin-top: 150px; /* Keep the space above */
+    background-color: #fff; /* Optional: Set a background color to avoid transparency issues */
+    z-index: 0; /* Ensure this is behind elements with higher z-index values, if any */
+}
+
+.pregrado-h3 {
+    text-align: center;
+    color: #212121;
+    margin-top: 150px;
+}
+
+.pregrado-h1 {
+    text-align: center;
+    color:  #212ea0;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.info-pre {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky
+}
+
+.perfil-pre {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+ ul li {
+    color:#212121;
+}
+
+.perfil-pre:hover {
+    background-color: #003d7a;
+}
+
+.trabajo-pre{
+    padding: 10px 20px;
+    border: none;
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.trabajo-pre ul li {
+    color: #212121;
+    list-style-position:inside;
+}
+
+.trabajo-pre:hover {
+    background-color: #003d7a;
+}
+
+.requisitos-pre {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.requisitos-pre:hover {
+    background-color: #003d7a;
+}
+
+
+/* media query */
+
+@media (max-width: 600px) {
+    .footer {
+        display: block;
+        text-align: center;
+    }
+    .footer ul li {
+        margin: 10px;       
+    }
+    .footer ul {
+        margin-top: 10px;
+    }
+}
